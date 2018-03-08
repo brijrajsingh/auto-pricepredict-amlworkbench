@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 39,
+  "id": "756d38e3-6856-4177-9174-affa3c3b3ac0",
+  "activities": [
+    {
+      "id": "e819df2e-f5a9-4d13-b882-c8cdb6180414",
+      "name": "imports-85",
+      "blocks": [
+        {
+          "id": "fb0888f1-b860-4052-83ba-e572654d1fec",
+          "type": "Microsoft.DPrep.ReferenceActivityBlock",
+          "arguments": {
+            "reference": {
+              "referenceType": 1,
+              "referenceContainerPath": "./imports-85.dsource",
+              "referencedActivityId": "6b6cb3a1-b4aa-4a08-97e1-db2fab3ef1dd",
+              "referencedBranchId": null,
+              "referencedStep": null,
+              "anonymousSteps": null
+            }
+          }
+        },
+        {
+          "id": "7643eaf9-275a-4832-ba74-768543919f52",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "Column1"
+            ]
+          }
+        },
+        {
+          "id": "13b54269-d5b1-4cc0-a6e4-b4ee0efb6abf",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "Column2"
+            ]
+          }
+        },
+        {
+          "id": "3dfcf7af-d775-44bf-9676-1291c802e371",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "make",
+            "columnId": "Column3"
+          }
+        },
+        {
+          "id": "188b7ace-7843-4ea0-b5a0-34d7cfa8d0c2",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "fuel-type",
+            "columnId": "Column4"
+          }
+        },
+        {
+          "id": "ca01f29f-6499-467c-9051-847e17073093",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "aspiration",
+            "columnId": "Column5"
+          }
+        },
+        {
+          "id": "c76dcbba-36f0-47f8-9702-fdd438b8bcc3",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "num-of-doors",
+            "columnId": "Column6"
+          }
+        },
+        {
+          "id": "47b9ce08-0f14-42b1-bc2f-97057c0526b4",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "body-style",
+            "columnId": "Column7"
+          }
+        },
+        {
+          "id": "123377cf-37f2-47d4-9cff-3cf33c6376bf",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "drive-wheels",
+            "columnId": "Column8"
+          }
+        },
+        {
+          "id": "0badca51-90e7-4e3c-bd3e-2636e54fa25c",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "engine-location",
+            "columnId": "Column9"
+          }
+        },
+        {
+          "id": "a25921d0-157e-425b-ae01-9b1279c8216f",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "wheel-base",
+            "columnId": "Column10"
+          }
+        },
+        {
+          "id": "336e71e9-6737-4e7b-b875-e02a3ce13c03",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "length",
+            "columnId": "Column11"
+          }
+        },
+        {
+          "id": "56966ec0-f595-44ce-8ef6-a370a87f3515",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "width",
+            "columnId": "Column12"
+          }
+        },
+        {
+          "id": "25f1934b-1af1-4cd8-820c-8ca4ac46e538",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "height",
+            "columnId": "Column13"
+          }
+        },
+        {
+          "id": "57a0c874-c66c-4003-a43a-88dc8287e823",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "curb-weight",
+            "columnId": "Column14"
+          }
+        },
+        {
+          "id": "17998564-a344-4bc1-938f-f95b7f159028",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "engine-type",
+            "columnId": "Column15"
+          }
+        },
+        {
+          "id": "beb0ce15-c45f-4de8-9ec3-2bc20886282d",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "num-of-cylinders",
+            "columnId": "Column16"
+          }
+        },
+        {
+          "id": "234e9d22-da7d-4a33-affa-042c950938fb",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "engine-size",
+            "columnId": "Column17"
+          }
+        },
+        {
+          "id": "49fd9e4d-fe25-4f3e-a44d-94b45af80fe7",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "fuel-system",
+            "columnId": "Column18"
+          }
+        },
+        {
+          "id": "e50dcdfb-a707-4b4f-af31-0274fc043f2e",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "bore",
+            "columnId": "Column19"
+          }
+        },
+        {
+          "id": "5154398f-93b0-4fa2-9ce1-cd463709e357",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "stroke",
+            "columnId": "Column20"
+          }
+        },
+        {
+          "id": "faf25c34-e691-43af-aafa-decac5eb1612",
+          "type": "Microsoft.DPrep.ConvertColumnFieldTypeBlock",
+          "arguments": {
+            "columnIds": [
+              "bore"
+            ],
+            "decimalPoint": 0
+          }
+        },
+        {
+          "id": "1b91176d-932a-47d2-96ec-98db57be5fd0",
+          "type": "Microsoft.DPrep.ConvertColumnFieldTypeBlock",
+          "arguments": {
+            "columnIds": [
+              "stroke"
+            ],
+            "decimalPoint": 0
+          }
+        },
+        {
+          "id": "ba84279b-a22d-4304-ab9e-ac433974d043",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "compression-ratio",
+            "columnId": "Column21"
+          }
+        },
+        {
+          "id": "f310f2b5-5c1f-4ab5-b208-e00ef5ae735b",
+          "type": "Microsoft.DPrep.ConvertColumnFieldTypeBlock",
+          "arguments": {
+            "columnIds": [
+              "Column22"
+            ],
+            "decimalPoint": 0
+          }
+        },
+        {
+          "id": "0b3c9b31-659a-4089-8523-c157220c189c",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "horsepower",
+            "columnId": "Column22"
+          }
+        },
+        {
+          "id": "fa65cb5c-ea3e-44cc-b84a-34c6823abd76",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "peak-rpm",
+            "columnId": "Column23"
+          }
+        },
+        {
+          "id": "706e7652-03b4-4032-acc2-08f14f3624e1",
+          "type": "Microsoft.DPrep.ConvertColumnFieldTypeBlock",
+          "arguments": {
+            "columnIds": [
+              "peak-rpm"
+            ],
+            "decimalPoint": 0
+          }
+        },
+        {
+          "id": "2028adcc-0fef-429b-aba1-c9adbb1d4c0e",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "city-mpg",
+            "columnId": "Column24"
+          }
+        },
+        {
+          "id": "e285d352-c7dd-4008-a96c-edbe77334b3d",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "highway-mpg",
+            "columnId": "Column25"
+          }
+        },
+        {
+          "id": "80eff728-c3d2-4a59-9587-4969a22b1af2",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "price",
+            "columnId": "Column26"
+          }
+        },
+        {
+          "id": "c57950c1-10e9-4a63-b13e-0b58d31ad0da",
+          "type": "Microsoft.DPrep.ConvertColumnFieldTypeBlock",
+          "arguments": {
+            "columnIds": [
+              "price"
+            ],
+            "decimalPoint": 0
+          }
+        },
+        {
+          "id": "558051fc-58bc-43d6-8c6f-6da14e3074f4",
+          "type": "Microsoft.DPrep.ReplaceErrorsForNumberColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "price"
+            ],
+            "replaceWith": 0.0
+          }
+        },
+        {
+          "id": "5f46e349-169d-43fd-ad8e-cf153d8b754a",
+          "type": "Microsoft.DPrep.FilterNumberColumnBlock",
+          "arguments": {
+            "columnId": "price",
+            "filterResult": 0,
+            "clauseRelationship": 1,
+            "clauses": [
+              {
+                "operator": 6,
+                "value": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "id": "7963b785-fc05-48ce-901b-e4ead0b00939",
+          "type": "Microsoft.DPrep.ReplaceErrorsForNumberColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "bore"
+            ],
+            "replaceWith": 0.0
+          }
+        },
+        {
+          "id": "16a9bbec-a2e9-4faa-a276-25614b7289d7",
+          "type": "Microsoft.DPrep.FilterNumberColumnBlock",
+          "arguments": {
+            "columnId": "bore",
+            "filterResult": 0,
+            "clauseRelationship": 1,
+            "clauses": [
+              {
+                "operator": 6,
+                "value": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "id": "67a16baa-2804-41c4-ba10-d28d57a9b986",
+          "type": "Microsoft.DPrep.ReplaceErrorsForNumberColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "horsepower"
+            ],
+            "replaceWith": 0.0
+          }
+        },
+        {
+          "id": "686589ef-e9c7-4565-8d77-cd8788cb9692",
+          "type": "Microsoft.DPrep.FilterNumberColumnBlock",
+          "arguments": {
+            "columnId": "horsepower",
+            "filterResult": 0,
+            "clauseRelationship": 1,
+            "clauses": [
+              {
+                "operator": 6,
+                "value": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "id": "235101f8-df24-4b0c-a2c8-4e72cb1043fe",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "fuel-system"
+            ]
+          }
+        },
+        {
+          "id": "3b5cc5bf-6943-446f-8c6a-3debceb0e307",
+          "type": "Microsoft.DPrep.DeriveColumnByExample",
+          "arguments": {
+            "columnId": "Column",
+            "dsl": "PABOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgBzAHcAaQB0AGMAaAAiACAAcgB1AGwAZQA9ACIAUwBpAG4AZwBsAGUAQgByAGEAbgBjAGgAIgA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAcwB0ACIAIAByAHUAbABlAD0AIgBUAHIAYQBuAHMAZgBvAHIAbQBhAHQAaQBvAG4AIgA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAZQAiACAAcgB1AGwAZQA9ACIAQQB0AG8AbQAiAD4APABMAGUAdABOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAGYAIgAgAGkAZAA9ACIATABlAHQAQwBvAGwAdQBtAG4ATgBhAG0AZQAiAD4APABWAGEAcgBpAGEAYgBsAGUAIABzAHkAbQBiAG8AbAA9ACIAYwBvAGwAdQBtAG4ATgBhAG0AZQAiAD4APABMAGkAdABlAHIAYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAaQBkAHgAIgA+ADwAIQBbAEMARABBAFQAQQBbACIAbgB1AG0ALQBvAGYALQBkAG8AbwByAHMAIgBdAF0APgA8AC8ATABpAHQAZQByAGEAbABOAG8AZABlAD4APAAvAFYAYQByAGkAYQBiAGwAZQA+ADwATABlAHQATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgBsAGUAdABPAHAAdABpAG8AbgBzACIAIABpAGQAPQAiAEwAZQB0AFgAIgA+ADwAVgBhAHIAaQBhAGIAbABlACAAcwB5AG0AYgBvAGwAPQAiAHgAIgA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAdgAiACAAcgB1AGwAZQA9ACIAQwBoAG8AbwBzAGUASQBuAHAAdQB0ACIAPgA8AFYAYQByAGkAYQBiAGwAZQBOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAHYAcwAiACAALwA+ADwAVgBhAHIAaQBhAGIAbABlAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAYwBvAGwAdQBtAG4ATgBhAG0AZQAiACAALwA+ADwALwBOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQA+ADwALwBWAGEAcgBpAGEAYgBsAGUAPgA8AE4AbwBuAHQAZQByAG0AaQBuAGEAbABOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAGMAbwBuAHYAIgAgAHIAdQBsAGUAPQAiAEwAbwBvAGsAdQBwACIAPgA8AFYAYQByAGkAYQBiAGwAZQBOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAHgAIgAgAC8APgA8AEwAaQB0AGUAcgBhAGwATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgBsAG8AbwBrAHUAcABEAGkAYwB0AGkAbwBuAGEAcgB5ACIAPgA8AEQAaQBjAHQAaQBvAG4AYQByAHkAIABzAGkAegBlAD0AIgAzACIAPgA8AEkAdABlAG0AIABpAD0AIgAwACIAPgA8AEsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAD4APABLAGUAeQA+ADwAUwBvAG0AZQA+ADwAIQBbAEMARABBAFQAQQBbACIAdAB3AG8AIgBdAF0APgA8AC8AUwBvAG0AZQA+ADwALwBLAGUAeQA+ADwAVgBhAGwAdQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgAyACIAXQBdAD4APAAvAFYAYQBsAHUAZQA+ADwALwBLAGUAeQBWAGEAbAB1AGUAUABhAGkAcgA+ADwALwBJAHQAZQBtAD4APABJAHQAZQBtACAAaQA9ACIAMQAiAD4APABLAGUAeQBWAGEAbAB1AGUAUABhAGkAcgA+ADwASwBlAHkAPgA8AFMAbwBtAGUAPgA8ACEAWwBDAEQAQQBUAEEAWwAiAGYAbwB1AHIAIgBdAF0APgA8AC8AUwBvAG0AZQA+ADwALwBLAGUAeQA+ADwAVgBhAGwAdQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgA0ACIAXQBdAD4APAAvAFYAYQBsAHUAZQA+ADwALwBLAGUAeQBWAGEAbAB1AGUAUABhAGkAcgA+ADwALwBJAHQAZQBtAD4APABJAHQAZQBtACAAaQA9ACIAMgAiAD4APABLAGUAeQBWAGEAbAB1AGUAUABhAGkAcgA+ADwASwBlAHkAPgA8AFMAbwBtAGUAPgA8ACEAWwBDAEQAQQBUAEEAWwAiAD8AIgBdAF0APgA8AC8AUwBvAG0AZQA+ADwALwBLAGUAeQA+ADwAVgBhAGwAdQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgAwACIAXQBdAD4APAAvAFYAYQBsAHUAZQA+ADwALwBLAGUAeQBWAGEAbAB1AGUAUABhAGkAcgA+ADwALwBJAHQAZQBtAD4APAAvAEQAaQBjAHQAaQBvAG4AYQByAHkAPgA8AC8ATABpAHQAZQByAGEAbABOAG8AZABlAD4APAAvAE4AbwBuAHQAZQByAG0AaQBuAGEAbABOAG8AZABlAD4APAAvAEwAZQB0AE4AbwBkAGUAPgA8AC8ATABlAHQATgBvAGQAZQA+ADwALwBOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQA+ADwALwBOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQA+ADwALwBOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQA+AA==",
+            "examples": "{\"0\":{\"row\":0,\"sourceData\":{\"num-of-doors\":\"two\"},\"example\":\"2\"},\"3\":{\"row\":3,\"sourceData\":{\"num-of-doors\":\"four\"},\"example\":\"4\"},\"56\":{\"row\":56,\"sourceData\":{\"num-of-doors\":\"?\"},\"example\":\"0\"}}",
+            "priorColumnIds": [
+              "num-of-doors"
+            ],
+            "sourceColumnIds": [
+              "num-of-doors"
+            ],
+            "outputType": 2,
+            "anchorColumnId": "num-of-doors"
+          }
+        },
+        {
+          "id": "8606304a-b1ad-4f30-8df3-8cd2f54695e4",
+          "type": "Microsoft.DPrep.ConvertColumnFieldTypeBlock",
+          "arguments": {
+            "columnIds": [
+              "Column"
+            ],
+            "decimalPoint": 0
+          }
+        },
+        {
+          "id": "4680a83a-a3a1-4211-ad11-406c8df40ded",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "num-of-doors"
+            ]
+          }
+        },
+        {
+          "id": "5e106eaa-9921-43df-bc93-c9918935b3b1",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "num-of-doors",
+            "columnId": "Column"
+          }
+        },
+        {
+          "id": "cc368c47-8fcc-4b40-b2a4-4d36ce953e0c",
+          "type": "Microsoft.DPrep.FilterNumberColumnBlock",
+          "arguments": {
+            "columnId": "num-of-doors",
+            "filterResult": 0,
+            "clauseRelationship": 1,
+            "clauses": [
+              {
+                "operator": 6,
+                "value": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "id": "7fcddb6b-a0b1-42b0-8939-743762bfada8",
+          "type": "Microsoft.DPrep.DeriveColumnByExample",
+          "arguments": {
+            "columnId": "Column",
+            "dsl": "PABOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgBzAHcAaQB0AGMAaAAiACAAcgB1AGwAZQA9ACIAUwBpAG4AZwBsAGUAQgByAGEAbgBjAGgAIgA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAcwB0ACIAIAByAHUAbABlAD0AIgBUAHIAYQBuAHMAZgBvAHIAbQBhAHQAaQBvAG4AIgA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAZQAiACAAcgB1AGwAZQA9ACIAQQB0AG8AbQAiAD4APABMAGUAdABOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAGYAIgAgAGkAZAA9ACIATABlAHQAQwBvAGwAdQBtAG4ATgBhAG0AZQAiAD4APABWAGEAcgBpAGEAYgBsAGUAIABzAHkAbQBiAG8AbAA9ACIAYwBvAGwAdQBtAG4ATgBhAG0AZQAiAD4APABMAGkAdABlAHIAYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAaQBkAHgAIgA+ADwAIQBbAEMARABBAFQAQQBbACIAbgB1AG0ALQBvAGYALQBjAHkAbABpAG4AZABlAHIAcwAiAF0AXQA+ADwALwBMAGkAdABlAHIAYQBsAE4AbwBkAGUAPgA8AC8AVgBhAHIAaQBhAGIAbABlAD4APABMAGUAdABOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAGwAZQB0AE8AcAB0AGkAbwBuAHMAIgAgAGkAZAA9ACIATABlAHQAWAAiAD4APABWAGEAcgBpAGEAYgBsAGUAIABzAHkAbQBiAG8AbAA9ACIAeAAiAD4APABOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgB2ACIAIAByAHUAbABlAD0AIgBDAGgAbwBvAHMAZQBJAG4AcAB1AHQAIgA+ADwAVgBhAHIAaQBhAGIAbABlAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAdgBzACIAIAAvAD4APABWAGEAcgBpAGEAYgBsAGUATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgBjAG8AbAB1AG0AbgBOAGEAbQBlACIAIAAvAD4APAAvAE4AbwBuAHQAZQByAG0AaQBuAGEAbABOAG8AZABlAD4APAAvAFYAYQByAGkAYQBiAGwAZQA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAYwBvAG4AdgAiACAAcgB1AGwAZQA9ACIATABvAG8AawB1AHAAIgA+ADwAVgBhAHIAaQBhAGIAbABlAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAeAAiACAALwA+ADwATABpAHQAZQByAGEAbABOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAGwAbwBvAGsAdQBwAEQAaQBjAHQAaQBvAG4AYQByAHkAIgA+ADwARABpAGMAdABpAG8AbgBhAHIAeQAgAHMAaQB6AGUAPQAiADUAIgA+ADwASQB0AGUAbQAgAGkAPQAiADAAIgA+ADwASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AEsAZQB5AD4APABTAG8AbQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgBmAG8AdQByACIAXQBdAD4APAAvAFMAbwBtAGUAPgA8AC8ASwBlAHkAPgA8AFYAYQBsAHUAZQA+ADwAIQBbAEMARABBAFQAQQBbACIANAAiAF0AXQA+ADwALwBWAGEAbAB1AGUAPgA8AC8ASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AC8ASQB0AGUAbQA+ADwASQB0AGUAbQAgAGkAPQAiADEAIgA+ADwASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AEsAZQB5AD4APABTAG8AbQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgBzAGkAeAAiAF0AXQA+ADwALwBTAG8AbQBlAD4APAAvAEsAZQB5AD4APABWAGEAbAB1AGUAPgA8ACEAWwBDAEQAQQBUAEEAWwAiADYAIgBdAF0APgA8AC8AVgBhAGwAdQBlAD4APAAvAEsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAD4APAAvAEkAdABlAG0APgA8AEkAdABlAG0AIABpAD0AIgAyACIAPgA8AEsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAD4APABLAGUAeQA+ADwAUwBvAG0AZQA+ADwAIQBbAEMARABBAFQAQQBbACIAdAB3AGUAbAB2AGUAIgBdAF0APgA8AC8AUwBvAG0AZQA+ADwALwBLAGUAeQA+ADwAVgBhAGwAdQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgAxADIAIgBdAF0APgA8AC8AVgBhAGwAdQBlAD4APAAvAEsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAD4APAAvAEkAdABlAG0APgA8AEkAdABlAG0AIABpAD0AIgAzACIAPgA8AEsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAD4APABLAGUAeQA+ADwAUwBvAG0AZQA+ADwAIQBbAEMARABBAFQAQQBbACIAZgBpAHYAZQAiAF0AXQA+ADwALwBTAG8AbQBlAD4APAAvAEsAZQB5AD4APABWAGEAbAB1AGUAPgA8ACEAWwBDAEQAQQBUAEEAWwAiADUAIgBdAF0APgA8AC8AVgBhAGwAdQBlAD4APAAvAEsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAD4APAAvAEkAdABlAG0APgA8AEkAdABlAG0AIABpAD0AIgA0ACIAPgA8AEsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAD4APABLAGUAeQA+ADwAUwBvAG0AZQA+ADwAIQBbAEMARABBAFQAQQBbACIAZQBpAGcAaAB0ACIAXQBdAD4APAAvAFMAbwBtAGUAPgA8AC8ASwBlAHkAPgA8AFYAYQBsAHUAZQA+ADwAIQBbAEMARABBAFQAQQBbACIAOAAiAF0AXQA+ADwALwBWAGEAbAB1AGUAPgA8AC8ASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AC8ASQB0AGUAbQA+ADwALwBEAGkAYwB0AGkAbwBuAGEAcgB5AD4APAAvAEwAaQB0AGUAcgBhAGwATgBvAGQAZQA+ADwALwBOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQA+ADwALwBMAGUAdABOAG8AZABlAD4APAAvAEwAZQB0AE4AbwBkAGUAPgA8AC8ATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAPgA8AC8ATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAPgA8AC8ATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAPgA=",
+            "examples": "{\"40\":{\"row\":40,\"sourceData\":{\"num-of-cylinders\":\"four\"},\"example\":\"4\"},\"43\":{\"row\":43,\"sourceData\":{\"num-of-cylinders\":\"six\"},\"example\":\"6\"},\"45\":{\"row\":45,\"sourceData\":{\"num-of-cylinders\":\"twelve\"},\"example\":\"12\"},\"58\":{\"row\":58,\"sourceData\":{\"num-of-cylinders\":\"five\"},\"example\":\"5\"},\"62\":{\"row\":62,\"sourceData\":{\"num-of-cylinders\":\"eight\"},\"example\":\"8\"}}",
+            "priorColumnIds": [
+              "num-of-cylinders"
+            ],
+            "sourceColumnIds": [
+              "num-of-cylinders"
+            ],
+            "outputType": 2,
+            "anchorColumnId": "num-of-cylinders"
+          }
+        },
+        {
+          "id": "55034166-cecc-4905-b678-833bce9dd24e",
+          "type": "Microsoft.DPrep.ConvertColumnFieldTypeBlock",
+          "arguments": {
+            "columnIds": [
+              "Column"
+            ],
+            "decimalPoint": 0
+          }
+        },
+        {
+          "id": "412a48ef-d545-4304-8ade-8899f4dc1d98",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "num-of-cylinders"
+            ]
+          }
+        },
+        {
+          "id": "7892659a-d114-45ef-9dbd-9c6c2a3d76c0",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "num-of-cylinders",
+            "columnId": "Column"
+          }
+        },
+        {
+          "id": "176c9a3a-c868-4cb6-abc3-2799a718bf08",
+          "type": "Microsoft.DPrep.ReplaceMissingNumberValuesBlock",
+          "arguments": {
+            "columnIds": [
+              "num-of-cylinders"
+            ],
+            "replaceWith": 0.0
+          }
+        },
+        {
+          "id": "82cad394-3c21-4ac6-926e-c1405819514d",
+          "type": "Microsoft.DPrep.FilterNumberColumnBlock",
+          "arguments": {
+            "columnId": "num-of-cylinders",
+            "filterResult": 0,
+            "clauseRelationship": 1,
+            "clauses": [
+              {
+                "operator": 6,
+                "value": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "id": "1a37d974-8328-41f8-a0e2-ac3a2068532d",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "make"
+            ]
+          }
+        },
+        {
+          "id": "3f26fc9a-11c1-4070-9409-cf3e9b85ef94",
+          "type": "Microsoft.DPrep.DeriveColumnByExample",
+          "arguments": {
+            "columnId": "Column",
+            "dsl": "PABOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgBzAHcAaQB0AGMAaAAiACAAcgB1AGwAZQA9ACIAUwBpAG4AZwBsAGUAQgByAGEAbgBjAGgAIgA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAcwB0ACIAIAByAHUAbABlAD0AIgBUAHIAYQBuAHMAZgBvAHIAbQBhAHQAaQBvAG4AIgA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAZQAiACAAcgB1AGwAZQA9ACIAQQB0AG8AbQAiAD4APABMAGUAdABOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAGYAIgAgAGkAZAA9ACIATABlAHQAQwBvAGwAdQBtAG4ATgBhAG0AZQAiAD4APABWAGEAcgBpAGEAYgBsAGUAIABzAHkAbQBiAG8AbAA9ACIAYwBvAGwAdQBtAG4ATgBhAG0AZQAiAD4APABMAGkAdABlAHIAYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAaQBkAHgAIgA+ADwAIQBbAEMARABBAFQAQQBbACIAZgB1AGUAbAAtAHQAeQBwAGUAIgBdAF0APgA8AC8ATABpAHQAZQByAGEAbABOAG8AZABlAD4APAAvAFYAYQByAGkAYQBiAGwAZQA+ADwATABlAHQATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgBsAGUAdABPAHAAdABpAG8AbgBzACIAIABpAGQAPQAiAEwAZQB0AFgAIgA+ADwAVgBhAHIAaQBhAGIAbABlACAAcwB5AG0AYgBvAGwAPQAiAHgAIgA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAdgAiACAAcgB1AGwAZQA9ACIAQwBoAG8AbwBzAGUASQBuAHAAdQB0ACIAPgA8AFYAYQByAGkAYQBiAGwAZQBOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAHYAcwAiACAALwA+ADwAVgBhAHIAaQBhAGIAbABlAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAYwBvAGwAdQBtAG4ATgBhAG0AZQAiACAALwA+ADwALwBOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQA+ADwALwBWAGEAcgBpAGEAYgBsAGUAPgA8AE4AbwBuAHQAZQByAG0AaQBuAGEAbABOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAGMAbwBuAHYAIgAgAHIAdQBsAGUAPQAiAEwAbwBvAGsAdQBwACIAPgA8AFYAYQByAGkAYQBiAGwAZQBOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAHgAIgAgAC8APgA8AEwAaQB0AGUAcgBhAGwATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgBsAG8AbwBrAHUAcABEAGkAYwB0AGkAbwBuAGEAcgB5ACIAPgA8AEQAaQBjAHQAaQBvAG4AYQByAHkAIABzAGkAegBlAD0AIgAyACIAPgA8AEkAdABlAG0AIABpAD0AIgAwACIAPgA8AEsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAD4APABLAGUAeQA+ADwAUwBvAG0AZQA+ADwAIQBbAEMARABBAFQAQQBbACIAZwBhAHMAIgBdAF0APgA8AC8AUwBvAG0AZQA+ADwALwBLAGUAeQA+ADwAVgBhAGwAdQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgAwACIAXQBdAD4APAAvAFYAYQBsAHUAZQA+ADwALwBLAGUAeQBWAGEAbAB1AGUAUABhAGkAcgA+ADwALwBJAHQAZQBtAD4APABJAHQAZQBtACAAaQA9ACIAMQAiAD4APABLAGUAeQBWAGEAbAB1AGUAUABhAGkAcgA+ADwASwBlAHkAPgA8AFMAbwBtAGUAPgA8ACEAWwBDAEQAQQBUAEEAWwAiAGQAaQBlAHMAZQBsACIAXQBdAD4APAAvAFMAbwBtAGUAPgA8AC8ASwBlAHkAPgA8AFYAYQBsAHUAZQA+ADwAIQBbAEMARABBAFQAQQBbACIAMQAiAF0AXQA+ADwALwBWAGEAbAB1AGUAPgA8AC8ASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AC8ASQB0AGUAbQA+ADwALwBEAGkAYwB0AGkAbwBuAGEAcgB5AD4APAAvAEwAaQB0AGUAcgBhAGwATgBvAGQAZQA+ADwALwBOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQA+ADwALwBMAGUAdABOAG8AZABlAD4APAAvAEwAZQB0AE4AbwBkAGUAPgA8AC8ATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAPgA8AC8ATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAPgA8AC8ATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAPgA=",
+            "examples": "{\"0\":{\"row\":0,\"sourceData\":{\"fuel-type\":\"gas\"},\"example\":\"0\"},\"80\":{\"row\":80,\"sourceData\":{\"fuel-type\":\"diesel\"},\"example\":\"1\"}}",
+            "priorColumnIds": [
+              "fuel-type"
+            ],
+            "sourceColumnIds": [
+              "fuel-type"
+            ],
+            "outputType": 2,
+            "anchorColumnId": "fuel-type"
+          }
+        },
+        {
+          "id": "6c78d775-e9ac-476c-bb8b-df0c36b9ee3a",
+          "type": "Microsoft.DPrep.ConvertColumnFieldTypeBlock",
+          "arguments": {
+            "columnIds": [
+              "Column"
+            ],
+            "decimalPoint": 0
+          }
+        },
+        {
+          "id": "c492a6e4-9972-422e-b477-6b6421930cf0",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "fuel-type"
+            ]
+          }
+        },
+        {
+          "id": "0157c862-6c66-48c0-85c7-3da7c0129cd8",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "fuel-type",
+            "columnId": "Column"
+          }
+        },
+        {
+          "id": "8c9306a4-edec-4a99-a782-15e6e8ada607",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "aspiration"
+            ]
+          }
+        },
+        {
+          "id": "4a660a85-7ec5-44b8-9dff-37730af19351",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "body-style"
+            ]
+          }
+        },
+        {
+          "id": "bb5d07d4-58a7-45d0-b82d-fcf35ce5b5dc",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "drive-wheels"
+            ]
+          }
+        },
+        {
+          "id": "e51c5d23-3a1e-421f-a086-3b09e637e09e",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "engine-location"
+            ]
+          }
+        },
+        {
+          "id": "18e461c4-3adf-472c-beaf-bb24ff7cfca3",
+          "type": "Microsoft.DPrep.DeriveColumnByExample",
+          "arguments": {
+            "columnId": "Column",
+            "dsl": "PABOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgBzAHcAaQB0AGMAaAAiACAAcgB1AGwAZQA9ACIAUwBpAG4AZwBsAGUAQgByAGEAbgBjAGgAIgA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAcwB0ACIAIAByAHUAbABlAD0AIgBUAHIAYQBuAHMAZgBvAHIAbQBhAHQAaQBvAG4AIgA+ADwATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAZQAiACAAcgB1AGwAZQA9ACIAQQB0AG8AbQAiAD4APABMAGUAdABOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAGYAIgAgAGkAZAA9ACIATABlAHQAQwBvAGwAdQBtAG4ATgBhAG0AZQAiAD4APABWAGEAcgBpAGEAYgBsAGUAIABzAHkAbQBiAG8AbAA9ACIAYwBvAGwAdQBtAG4ATgBhAG0AZQAiAD4APABMAGkAdABlAHIAYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAaQBkAHgAIgA+ADwAIQBbAEMARABBAFQAQQBbACIAZQBuAGcAaQBuAGUALQB0AHkAcABlACIAXQBdAD4APAAvAEwAaQB0AGUAcgBhAGwATgBvAGQAZQA+ADwALwBWAGEAcgBpAGEAYgBsAGUAPgA8AEwAZQB0AE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAbABlAHQATwBwAHQAaQBvAG4AcwAiACAAaQBkAD0AIgBMAGUAdABYACIAPgA8AFYAYQByAGkAYQBiAGwAZQAgAHMAeQBtAGIAbwBsAD0AIgB4ACIAPgA8AE4AbwBuAHQAZQByAG0AaQBuAGEAbABOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAHYAIgAgAHIAdQBsAGUAPQAiAEMAaABvAG8AcwBlAEkAbgBwAHUAdAAiAD4APABWAGEAcgBpAGEAYgBsAGUATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgB2AHMAIgAgAC8APgA8AFYAYQByAGkAYQBiAGwAZQBOAG8AZABlACAAcwB5AG0AYgBvAGwAPQAiAGMAbwBsAHUAbQBuAE4AYQBtAGUAIgAgAC8APgA8AC8ATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAPgA8AC8AVgBhAHIAaQBhAGIAbABlAD4APABOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgBjAG8AbgB2ACIAIAByAHUAbABlAD0AIgBMAG8AbwBrAHUAcAAiAD4APABWAGEAcgBpAGEAYgBsAGUATgBvAGQAZQAgAHMAeQBtAGIAbwBsAD0AIgB4ACIAIAAvAD4APABMAGkAdABlAHIAYQBsAE4AbwBkAGUAIABzAHkAbQBiAG8AbAA9ACIAbABvAG8AawB1AHAARABpAGMAdABpAG8AbgBhAHIAeQAiAD4APABEAGkAYwB0AGkAbwBuAGEAcgB5ACAAcwBpAHoAZQA9ACIANQAiAD4APABJAHQAZQBtACAAaQA9ACIAMAAiAD4APABLAGUAeQBWAGEAbAB1AGUAUABhAGkAcgA+ADwASwBlAHkAPgA8AFMAbwBtAGUAPgA8ACEAWwBDAEQAQQBUAEEAWwAiAG8AaABjACIAXQBdAD4APAAvAFMAbwBtAGUAPgA8AC8ASwBlAHkAPgA8AFYAYQBsAHUAZQA+ADwAIQBbAEMARABBAFQAQQBbACIAMAAiAF0AXQA+ADwALwBWAGEAbAB1AGUAPgA8AC8ASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AC8ASQB0AGUAbQA+ADwASQB0AGUAbQAgAGkAPQAiADEAIgA+ADwASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AEsAZQB5AD4APABTAG8AbQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgBvAGgAYwB2ACIAXQBdAD4APAAvAFMAbwBtAGUAPgA8AC8ASwBlAHkAPgA8AFYAYQBsAHUAZQA+ADwAIQBbAEMARABBAFQAQQBbACIAMgAiAF0AXQA+ADwALwBWAGEAbAB1AGUAPgA8AC8ASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AC8ASQB0AGUAbQA+ADwASQB0AGUAbQAgAGkAPQAiADIAIgA+ADwASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AEsAZQB5AD4APABTAG8AbQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgBsACIAXQBdAD4APAAvAFMAbwBtAGUAPgA8AC8ASwBlAHkAPgA8AFYAYQBsAHUAZQA+ADwAIQBbAEMARABBAFQAQQBbACIAMwAiAF0AXQA+ADwALwBWAGEAbAB1AGUAPgA8AC8ASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AC8ASQB0AGUAbQA+ADwASQB0AGUAbQAgAGkAPQAiADMAIgA+ADwASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AEsAZQB5AD4APABTAG8AbQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgBvAGgAYwBmACIAXQBdAD4APAAvAFMAbwBtAGUAPgA8AC8ASwBlAHkAPgA8AFYAYQBsAHUAZQA+ADwAIQBbAEMARABBAFQAQQBbACIAMQAiAF0AXQA+ADwALwBWAGEAbAB1AGUAPgA8AC8ASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AC8ASQB0AGUAbQA+ADwASQB0AGUAbQAgAGkAPQAiADQAIgA+ADwASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AEsAZQB5AD4APABTAG8AbQBlAD4APAAhAFsAQwBEAEEAVABBAFsAIgBkAG8AaABjACIAXQBdAD4APAAvAFMAbwBtAGUAPgA8AC8ASwBlAHkAPgA8AFYAYQBsAHUAZQA+ADwAIQBbAEMARABBAFQAQQBbACIANAAiAF0AXQA+ADwALwBWAGEAbAB1AGUAPgA8AC8ASwBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAPgA8AC8ASQB0AGUAbQA+ADwALwBEAGkAYwB0AGkAbwBuAGEAcgB5AD4APAAvAEwAaQB0AGUAcgBhAGwATgBvAGQAZQA+ADwALwBOAG8AbgB0AGUAcgBtAGkAbgBhAGwATgBvAGQAZQA+ADwALwBMAGUAdABOAG8AZABlAD4APAAvAEwAZQB0AE4AbwBkAGUAPgA8AC8ATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAPgA8AC8ATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAPgA8AC8ATgBvAG4AdABlAHIAbQBpAG4AYQBsAE4AbwBkAGUAPgA=",
+            "examples": "{\"72\":{\"row\":72,\"sourceData\":{\"engine-type\":\"ohc\"},\"example\":\"0\"},\"91\":{\"row\":91,\"sourceData\":{\"engine-type\":\"ohcv\"},\"example\":\"2\"},\"97\":{\"row\":97,\"sourceData\":{\"engine-type\":\"l\"},\"example\":\"3\"},\"116\":{\"row\":116,\"sourceData\":{\"engine-type\":\"ohcf\"},\"example\":\"1\"},\"123\":{\"row\":123,\"sourceData\":{\"engine-type\":\"dohc\"},\"example\":\"4\"}}",
+            "priorColumnIds": [
+              "engine-type"
+            ],
+            "sourceColumnIds": [
+              "engine-type"
+            ],
+            "outputType": 2,
+            "anchorColumnId": "engine-type"
+          }
+        },
+        {
+          "id": "6cd990b5-55d3-4c4a-8c7b-3732ed704b99",
+          "type": "Microsoft.DPrep.DeleteColumnBlock",
+          "arguments": {
+            "columnIds": [
+              "engine-type"
+            ]
+          }
+        },
+        {
+          "id": "ed247c95-2583-4ff8-844a-961aa52fc6c3",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "engine-type",
+            "columnId": "Column"
+          }
+        },
+        {
+          "id": "86da8432-64b7-4e2e-b186-a3e6f08c50d8",
+          "type": "Microsoft.DPrep.ConvertColumnFieldTypeBlock",
+          "arguments": {
+            "columnIds": [
+              "engine-type"
+            ],
+            "decimalPoint": 0
+          }
+        }
+      ],
+      "inspectors": [
+        {
+          "id": "620d1c27-ed9a-44e5-9d39-4334825978ba",
+          "type": "Microsoft.DPrep.DataQualityInspector",
+          "arguments": {},
+          "reference": {
+            "referenceType": 0,
+            "referenceContainerPath": null,
+            "referencedActivityId": "e819df2e-f5a9-4d13-b882-c8cdb6180414",
+            "referencedBranchId": null,
+            "referencedStep": {
+              "stepReferenceType": 1,
+              "referencedStepId": null,
+              "fallback": 1
+            },
+            "anonymousSteps": null
+          },
+          "isBackground": false
+        }
+      ]
+    }
+  ],
+  "runConfigurations": []
+}
